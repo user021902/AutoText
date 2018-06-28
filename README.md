@@ -59,6 +59,7 @@ Currently, the message is just hardcoded into the .js file as `MESSAGE`. You can
 - add ability for phone numbers not just contacts names
 - perhaps read message from text file
 - add more "commands" where message could be even more personalized dependending on what contact it is.
+- Electron app?
 
 ## Troubleshooting:
 
