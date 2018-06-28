@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "shelljs": "^0.8.2",
+    "vcard-json": "^0.5.2"
+  }
+}

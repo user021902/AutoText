@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.12.6//EN
+N:danilowicz;alex;;;
+FN:Alex Danilowicz
+TEL;type=CELL;type=VOICE;type=pref:6192545480
+UID:057eee00-83b0-4fc9-9ed8-48f01d887ca0
+X-ABUID:057EEE00-83B0-4FC9-9ED8-48F01D887CA0:ABPerson
+END:VCARD
