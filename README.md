@@ -1,4 +1,4 @@
-# AutoText ![Logo](autotextlogo.png)
+# ![Logo](img/autotextlogo.png) AutoText
 
 
 ## Setup
