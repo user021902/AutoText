@@ -1,23 +1,23 @@
 # ![Logo](img/autotextlogo.png) AutoText
 
 
-## Setup
+# Setup
 
 ### Install:
 
 
 ```
-$ node
+node
 ```
 ```
-$ yarn
+yarn
 ```
 
 ### Dependencies:
 
 To install dependencies run:
 ```
-yarn
+$ yarn
 ```
 
 Or manually add them:
@@ -45,7 +45,7 @@ Make sure you also have `node` to run javascript in the commandline.
 Now, once you have your contacts.vcf in your working directory, run:
 
 ```
-node sendMessage.js
+$ node sendMessage.js
 ```
 
 You'll have a chance to see the message and confirm before sending in the command line.
@@ -70,7 +70,7 @@ isabel
 ? Are you sure you wish to proceed? (Y/n)
 ```
 
-## Send the Message
+## Craft your Message:
 
 Currently, the message is just hardcoded into the .js file as `MESSAGE`. You can edit it directly. It will replace `UNIQUE_CONTACT` with the contact's first word in their name.
 
