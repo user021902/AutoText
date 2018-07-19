@@ -15,16 +15,17 @@ $ yarn
 
 ### Dependencies:
 
-To install dependencies run: 
+To install dependencies run:
 ```
 yarn
-``` 
+```
 
 Or manually add them:
 
 ```
 $ yarn add vcard-json
 $ yarn add shelljs
+$ yarn add prompt-confirm
 $ yarn
 ```
 
@@ -35,7 +36,7 @@ Make sure you also have `node` to run javascript in the commandline.
 ## Getting Contacts File:
 
 
-1) Go to your contacts app, and select the contacts you want to send your message to. 
+1) Go to your contacts app, and select the contacts you want to send your message to.
 
 2) You can skip ordering and select multiple with the "command" key
 
@@ -47,7 +48,27 @@ Now, once you have your contacts.vcf in your working directory, run:
 node sendMessage.js
 ```
 
-You'll see some stuff printed in the command line, but more importantly, you'll see your messages sent on iMessage!
+You'll have a chance to see the message and confirm before sending in the command line.
+
+Then, you'll see your messages sent on iMessage!
+
+## Example:
+
+```
+$ node sendMessage.js
+You're going to send the text:
+
+yooooooooo UNIQUE_CONTACT. How's your summer?
+
+<<<<-- where UNIQUE_CONTACT is replaced by their name --->>>>
+
+To:
+Alex
+isabel
+
+
+? Are you sure you wish to proceed? (Y/n)
+```
 
 ## Send the Message
 
@@ -58,7 +79,7 @@ Currently, the message is just hardcoded into the .js file as `MESSAGE`. You can
 - make it more user friendly
 - add ability for phone numbers not just contacts names
 - perhaps read message from text file
-- add more "commands" where message could be even more personalized dependending on what contact it is.
+- add more "commands" where message could be even more personalized depending on what contact it is.
 - Electron app?
 
 ## Troubleshooting:
@@ -69,4 +90,3 @@ Currently, the message is just hardcoded into the .js file as `MESSAGE`. You can
 
 Awesome vcf reader by Andrew Pace:
 https://github.com/andrewppace/vcard-json
-
