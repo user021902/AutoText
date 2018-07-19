@@ -74,14 +74,6 @@ isabel
 
 Currently, the message is just hardcoded into the .js file as `MESSAGE`. You can edit it directly. It will replace `UNIQUE_CONTACT` with the contact's first word in their name.
 
-# Issues:
-
-- make it more user friendly
-- add ability for phone numbers not just contacts names
-- perhaps read message from text file
-- add more "commands" where message could be even more personalized depending on what contact it is.
-- Electron app?
-
 ## Troubleshooting:
 
 - ensure iMessage is open
